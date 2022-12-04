@@ -11,7 +11,6 @@
 #define CLRSCR() system("cls")
 #define PATH "F:\\HSD\\Informatik\\Mitarbeiterliste.txt"
 
-
 void menue();
 void eingeben();
 void ausgeben();
@@ -23,6 +22,7 @@ struct mitarbeiter{
 	int rufnummer;
 	char abteilung;
 }liste [100];
+
 int maindex = 0;
 
 int main()
